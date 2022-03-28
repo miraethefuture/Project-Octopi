@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+    background: #303241;
+
+}
+.container_banner{
+    width: 100%;
+    height: 100%;
+    background: #303241;
+    padding-bottom: 17%;    
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(to bottom right, #b3a3ce, #a2c7a8);
+}
+.container_banner h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    /* padding-bottom: 20px; */
+    font-size: 2.1em;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #8787a7;
+    cursor: pointer;
+}
+.logo img{
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.home{
+    color: #94b498 !important;
+}
+.signup-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#303241, #303241), /*왜 두개지?*/
+    radial-gradient(circle at top left, #8940ff, #80ff95);
+    background-origin: border-box;
+    background-clip: content-box, border-box;    
+}
+.signup-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+.sub_banner{
+    width: 400px;
+    height: 250px;
+    top: 25%;
+    left: 10%;
+    position: absolute;
+    color: #fff;
+    background: linear-gradient(to bottom left, #8940ff, #80ff95);
+    border-radius: 25% 0%;
+}
+.app-text-sub{
+    width: 50%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.app-text-sub h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px; 
+    margin-top: 75px;
+}
+.app-text-sub h2{
+    font-size: 23px;
+    width: 640px;
+    position: relative;
+    margin: 10px 0 10px 40px; 
+}
+.app-text-sub p{
+    width: 650;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #8787a7;
+}
+/* .eclipse-icon img{
+    float: right;
+    margin-right: 100px;
+    
+} */
+.content-table{
+    border-collapse: collapse;
+    margin: 400px auto;
+    font-size: 0.9em;
+    width: 900px;
+    border-radius: 5px;
+    overflow: hidden;
+    /* box-shadow: 5px 20px 10px #181818; */
+
+}
+.content-table thead tr{
+    /* background-color: #a1e0c1; */
+    background: linear-gradient(to bottom right, #a3d0aa, #bfabde);
+    color:#fff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th{
+    padding: 20px;
+}
+.content-table td{
+    padding: 20px;
+}
+.content-table tbody tr{
+    border-bottom: 0px solid #ddd;
+    background-color: #ffffff;
+    color: #4c4b53;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #dbe6dc;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #a3d0aa;
+}
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
+.signin_table{
+    border-collapse: collapse;
+    position: absolute;
+    margin: auto;
+    margin-top: 28%;
+    margin-left: 50%;
+    padding-bottom: 10px;
+    transform: translate(-50%, -50%); 
+    width: 300px; 
+    padding-top: 100px;
+}
+.signin_table tbody td{
+    color: #fff;
+    font-size: 1em;
+    padding-top: 10px;    
+}
+.signin_table input{
+    border-radius: 11px;
+}
+.center_table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.signin-bottom{
+    padding-top: 80%;
+}
+.signin-bottom p{
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.signin_btn{
+    padding-top: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor:pointer;
+    margin-top: 35px;
+}
+.signin_btn input{
+    color: #79b492;
+    background-color: #fff;
+}
+

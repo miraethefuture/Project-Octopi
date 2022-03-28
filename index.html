@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Shorcuts for you: Octopi!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="signIn_window.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li class="logo"><img src="mag.png"></li>
+                <li class="home" onclick="location.href='index.html'";>Home</li>
+                <li class="aboutus" onclick="location.href='AboutUs.html'";>About Us</li>
+                <li class="signin-btn" onclick="login_window('signin.html', 'Sign in to Otopi', '380', '500')"><span>Sign in</span></li>
+                <li><a href="#" class="signup-btn"><span>Sign up</span></a></li>
+            </ul>
+        </div>
+        <div class="iframe-banner">
+            <iframe id="banner" src="banner.html" title="Iframe banner part" allowfullscreen></iframe>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li onclick="location.href='Eclipse.html'";><p>Eclipse</p></li>
+                <li onclick="location.href='Xcode.html'";><p>Xcode</p></li>
+                <li onclick="location.href='VSCode.html'";><p>VSCode</p></li>
+                <li onclick="location.href='macOS.html'";><p>macOS</p></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
